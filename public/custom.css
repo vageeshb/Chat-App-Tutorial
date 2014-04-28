@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#chatArea, #connectedUsers {
+  height: 420px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 15px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.user {
+  background-color: #ECECEC;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+.sender {
+  border: 1px solid #62FFD5;
+  background-color: #C7FFF0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  text-align: right;
+}
+
+.owner {
+  border: 1px solid #FF8080;
+  background-color: #FFCECE;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  text-align: left;
+}
+
+#footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #222;
+  color: #DDDDDD;
+}
